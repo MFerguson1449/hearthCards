@@ -11,14 +11,21 @@ html {
 
 .main {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: #570411;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.cardInfo {
+.cardSearch button {
+  color: #E6CC80;
+  padding: 2px 4px;
+  background-color: #570411;
+  border: 1px solid white;
+}
+
+.cardDisplay {
   border: 2px solid white;
 }
 

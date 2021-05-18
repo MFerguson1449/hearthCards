@@ -120,9 +120,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"script.js":[function(require,module,exports) {
 const apiKey = "7c1424e997msh4c2529173a18f3cp1b5d2ajsnc981c4104a9b";
 const endpoint = 'https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/search/';
-const form = document.querySelector('form.search');
+const form = document.querySelector('form.cardSearch');
 const submitButton = document.querySelector('.searchSubmit');
-const cardDisplay = document.querySelector('.cardInfo');
+const cardDisplay = document.querySelector('.cardDisplay');
 
 function handleError(err) {
   // Error handling
@@ -196,7 +196,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2437" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "31807" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

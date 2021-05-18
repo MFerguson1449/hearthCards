@@ -1,8 +1,8 @@
 const apiKey = process.env.API_KEY;
 const endpoint = 'https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/search/'
-const form = document.querySelector('form.search');
+const form = document.querySelector('form.cardSearch');
 const submitButton = document.querySelector('.searchSubmit');
-const cardDisplay = document.querySelector('.cardInfo');
+const cardDisplay = document.querySelector('.cardDisplay');
 
 function handleError(err) { // Error handling
     console.log('Something went wrong!!');
