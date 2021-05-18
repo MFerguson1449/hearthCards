@@ -38,15 +38,15 @@ async function fetchAndDisplay(query) {
 }
 
 function displayCardInfo(cards) {
+    const cardImageURLPrefix = 'https://art.hearthstonejson.com/v1/render/latest/enUS/512x/';
     const html = cards.map(
-        cards => `<div class="card">
-        <h2>${cards.name}<h2>
-        <h3>${cards.health}<h3>
-        <h4>${cards.playerClass}</h4>
-        <img src="https://art.hearthstonejson.com/v1/render/latest/enUS/512x/${cards.cardId}.png" alt="${cards.name}"
+        cards => `
+        <div class="card">
+            <h2>${cards.name}</h2>
+            <img src="${cardImageURLPrefix}${cards.cardId}.png" alt="${cards.name}" class="cardImg"
         </div>`
-    );
-    cardDisplay.innerHTML = html;
+        );
+        cardDisplay.appendChild(html);
 }
   
 
