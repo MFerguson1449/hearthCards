@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 html {
@@ -40,6 +41,7 @@ h2 {
     background-color: rgb(87, 4, 17);
     border: 1px solid white;
     color: #E6CC80;
+    padding-left: 10px;
   }
   button {
     height: 100%;
@@ -54,11 +56,15 @@ h2 {
   border: 2px solid black;
   width: 85%;
   min-height: 50vw;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+  .card {
+    max-width: 20%;
+  }
   .cardImg {
-    border: 2px solid yellow;
-    scale: 60%;
+    width: 100%;
+    height: auto;
   }
 }
 

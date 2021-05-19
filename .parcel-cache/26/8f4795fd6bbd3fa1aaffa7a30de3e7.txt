@@ -12,10 +12,10 @@
 72C:\Users\Mike\documents\dev\hearthCards\node_modules\readdirp\index.d.ts121436361000000000 0
 77C:\Users\Mike\documents\dev\hearthCards\node_modules\to-regex-range\README.md121436361000000000 0
 74C:\Users\Mike\documents\dev\hearthCards\node_modules\node-addon-api\napi.h121436361000000000 0
-49C:\Users\Mike\documents\dev\hearthCards\script.js132657781507171713 0
-63C:\Users\Mike\documents\dev\hearthCards\dist\index.beb02c0a.css132657781509755884 0
+49C:\Users\Mike\documents\dev\hearthCards\script.js132658980718429069 0
+63C:\Users\Mike\documents\dev\hearthCards\dist\index.beb02c0a.css132658989132942342 0
 50C:\Users\Mike\documents\dev\hearthCards\.gitignore132657756939478749 0
-44C:\Users\Mike\documents\dev\hearthCards\dist132657781509885912 1
+44C:\Users\Mike\documents\dev\hearthCards\dist132658989133137559 1
 75C:\Users\Mike\documents\dev\hearthCards\node_modules\normalize-path\LICENSE121436361000000000 0
 70C:\Users\Mike\documents\dev\hearthCards\node_modules\readdirp\index.js121436361000000000 0
 57C:\Users\Mike\documents\dev\hearthCards\node_modules\sass132657759484588441 1
@@ -29,7 +29,7 @@
 79C:\Users\Mike\documents\dev\hearthCards\node_modules\@parcel\types\package.json132657759445886497 0
 52C:\Users\Mike\documents\dev\hearthCards\node_modules132657760157285575 1
 74C:\Users\Mike\documents\dev\hearthCards\node_modules\picomatch\lib\scan.js121436361000000000 0
-50C:\Users\Mike\documents\dev\hearthCards\style.scss132657774482724933 0
+50C:\Users\Mike\documents\dev\hearthCards\style.scss132658989132004473 0
 57C:\Users\Mike\documents\dev\hearthCards\node_modules\.bin132657759486412214 1
 65C:\Users\Mike\documents\dev\hearthCards\node_modules\sass\sass.js121436361000000000 0
 60C:\Users\Mike\documents\dev\hearthCards\node_modules\@parcel132657759444248582 1
@@ -104,7 +104,7 @@
 71C:\Users\Mike\documents\dev\hearthCards\node_modules\fill-range\LICENSE121436361000000000 0
 75C:\Users\Mike\documents\dev\hearthCards\node_modules\is-number\package.json132657759450145233 0
 72C:\Users\Mike\documents\dev\hearthCards\node_modules\is-number\README.md121436361000000000 0
-65C:\Users\Mike\documents\dev\hearthCards\dist\favicon.47b58bf7.ico132657781509497517 0
+65C:\Users\Mike\documents\dev\hearthCards\dist\favicon.47b58bf7.ico132658989132942342 0
 85C:\Users\Mike\documents\dev\hearthCards\node_modules\.bin\node-gyp-build-optional.ps1132657759486299013 0
 69C:\Users\Mike\documents\dev\hearthCards\node_modules\is-glob\index.js121436361000000000 0
 84C:\Users\Mike\documents\dev\hearthCards\node_modules\@parcel\source-map\dist\node.js121436361000000000 0
@@ -244,7 +244,7 @@
 66C:\Users\Mike\documents\dev\hearthCards\node_modules\.bin\sass.cmd132657759486412214 0
 66C:\Users\Mike\documents\dev\hearthCards\node_modules\.bin\sass.ps1132657759486422229 0
 63C:\Users\Mike\documents\dev\hearthCards\dist\index.4b44cf76.css132657765197942303 0
-62C:\Users\Mike\documents\dev\hearthCards\dist\index.b4f5078c.js132657781509765914 0
-66C:\Users\Mike\documents\dev\hearthCards\dist\index.b4f5078c.js.map132657781509845944 0
-67C:\Users\Mike\documents\dev\hearthCards\dist\index.beb02c0a.css.map132657781509825898 0
-55C:\Users\Mike\documents\dev\hearthCards\dist\index.html132657781509745376 0
+62C:\Users\Mike\documents\dev\hearthCards\dist\index.b4f5078c.js132658989132942342 0
+66C:\Users\Mike\documents\dev\hearthCards\dist\index.b4f5078c.js.map132658989133057046 0
+67C:\Users\Mike\documents\dev\hearthCards\dist\index.beb02c0a.css.map132658989133057046 0
+55C:\Users\Mike\documents\dev\hearthCards\dist\index.html132658989132942342 0
