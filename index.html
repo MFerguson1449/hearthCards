@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HearthSearch</title>
+    <title>HearthForge</title>
 
     <link type="text/css" rel="stylesheet" href="./style.scss">
 
+    <!--Favicon-->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class='main'>
-        <h1>HearthSearch</h1>
-        <form class="cardSearch" autocomplete="off">
-            <input class='searchInput' type="text" name="query" placeholder="Enter a card name!">
-            <button class='searchSubmit' name="submit" type="submit">Submit</button>
-        </form>
-        <div class='cardDisplay'></div>
+        <div class="pageTop">
+            <h1><span class="titleColor">HEARTH</span>FORGE</h1>
+            <form class="cardSearch" autocomplete="off">
+                <input class='searchInput' type="text" name="query" placeholder="Enter a card name!">
+                <button class='searchSubmit' name="submit" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="pageBottom">
+            <div class='cardDisplay'></div>
+        </div>
     <script src='./script.js'></script>
 </body>
 </html>

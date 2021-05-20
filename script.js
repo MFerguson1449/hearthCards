@@ -10,7 +10,7 @@ function handleError(err) { // Error handling
 }
 
 async function fetchCards(query) {
-    const response = await fetch(`${endpoint}${query}`, {
+    const response = await fetch(`${endpoint}${query}?collectible=1`, {
         "method": "GET",
         "headers": {
             "x-rapidapi-key": apiKey,

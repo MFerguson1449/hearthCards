@@ -1,3 +1,6 @@
+// !Variables! //
+$accentColor: rgb(140, 31, 31);
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +8,9 @@
   outline: none;
 }
 
+
 html {
-  font-family: sans-serif, serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 10px;
 }
@@ -21,50 +25,81 @@ h2 {
 
 .main {
   width: 100vw;
-  min-height: 100vw;
-  background-color: rgb(87, 4, 17);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.cardSearch {
-  height: 40px;
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  font-size: 20px;
-  input {
-    height: 100%;
-    width: 80%;
-    border-radius: 0px;
-    background-color: rgb(87, 4, 17);
-    border: 1px solid white;
-    color: #E6CC80;
-    padding-left: 10px;
-  }
-  button {
-    height: 100%;
-    color: #E6CC80;
-    padding: 2px 20px;
-    background-color: rgb(87, 4, 17);
-    border: 1px solid white;
-  }
-}
-
-.cardDisplay {
-  border: 2px solid black;
-  width: 85%;
-  min-height: 50vw;
-  display: flex;
-  flex-flow: row wrap;
-  margin-top: 20px;
-  .card {
-    max-width: 20%;
-  }
-  .cardImg {
+  .pageTop, .pageBottom {
     width: 100%;
-    height: auto;
   }
 }
+
+.pageTop {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  .titleColor {
+    color: $accentColor;
+  }
+  .cardSearch {
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    input {
+      height: 100%;
+      width: 80%;
+      border-radius: 0px;
+      background-color: white;
+      color: black;
+      padding-left: 10px;
+      font-size: 20px;
+    }
+    button {
+      height: 100%;
+      color: white;
+      padding: 2px 20px;
+      background-color: black;
+      border: 2px solid white;
+      font-size: 20px;
+      margin-left: 2px;
+    }
+    button:hover {
+      border: 2px solid $accentColor;
+      color: $accentColor;
+    }
+  }
+}
+
+.pageBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .cardDisplay {
+    width: 80%;
+    min-height: 50vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    .card {
+      max-width: 20%;
+    }
+    .cardImg {
+      width: 100%;
+      height: auto;
+    }
+    .card:hover {
+      transform: translateY(-2%);
+      transition: ease 0.1s;
+    }
+  }
+}
+
+
 
