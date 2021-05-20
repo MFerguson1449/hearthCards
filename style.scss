@@ -24,13 +24,15 @@ h2 {
 }
 
 .main {
-  width: 100vw;
-  min-height: 100vh;
+  width: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
   .pageTop, .pageBottom {
     width: 100%;
+    overflow: hidden;  
   }
 }
 
@@ -72,6 +74,10 @@ h2 {
       border: 2px solid $accentColor;
       color: $accentColor;
     }
+    button:active {
+      background-color: white;
+      transform: translateY(2px);
+    }
   }
 }
 
@@ -82,7 +88,6 @@ h2 {
   align-items: center;
   .cardDisplay {
     width: 80%;
-    min-height: 50vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
