@@ -1,19 +1,24 @@
 {
   "name": "hearthstone",
-  "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "version": "1.0.0",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFerguson1449/hearthCards.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MFerguson1449/hearthCards/issues"
+  },
+  "homepage": "https://github.com/MFerguson1449/hearthCards#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-beta.2",
-    "cssnano": "^5.0.3",
-    "postcss": "^8.2.15",
-    "sass": "^1.32.13"
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.33.0"
   },
   "browserslist": [
     "last 1 chrome versions"
